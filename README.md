@@ -12,6 +12,12 @@ python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
+- How do I check python outdated package versions and install latest versions?
+```
+pip list --outdated
+pip install --upgrade ...
+pip freeze > requirements.txt // save versions to 'requirements.txt'
+```
 ---
 JUST CONTACT US if need help
 https://www.malan.kr
