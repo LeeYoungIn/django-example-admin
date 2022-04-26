@@ -1,8 +1,8 @@
 import json
-from django.shortcuts import render
 from rest_framework import routers, status, viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
+
 from .models import Account
 from .serializers import AccountSerializer
 
